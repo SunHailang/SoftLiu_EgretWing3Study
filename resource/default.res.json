@@ -1,10 +1,5 @@
 {
-	"groups": [
-		{
-			"keys": "checkbox_select_disabled_png,checkbox_select_down_png,checkbox_select_up_png,checkbox_unselect_png,selected_png,border_png,header_png,radiobutton_select_disabled_png,radiobutton_select_down_png,radiobutton_select_up_png,radiobutton_unselect_png,roundthumb_png,thumb_png,track_png,tracklight_png,handle_png,off_png,on_png,button_down_png,button_up_png,thumb_pb_png,track_pb_png,track_sb_png,bg_jpg,egret_icon_png,description_json",
-			"name": "preload"
-		}
-	],
+	"groups": [],
 	"resources": [
 		{
 			"url": "assets/CheckBox/checkbox_select_disabled.png",
@@ -135,6 +130,91 @@
 			"name": "description_json",
 			"type": "json",
 			"url": "config/description.json"
+		},
+		{
+			"name": "FE_icon_mission_hungry_CN_png",
+			"type": "image",
+			"url": "assets/HSW/FE_icon_mission_hungry_CN.png"
+		},
+		{
+			"name": "FE_icon_radar_letterG_png",
+			"type": "image",
+			"url": "assets/HSW/FE_icon_radar_letterG.png"
+		},
+		{
+			"name": "FE_icon_radar_letterH_png",
+			"type": "image",
+			"url": "assets/HSW/FE_icon_radar_letterH.png"
+		},
+		{
+			"name": "FE_icon_radar_letterN_png",
+			"type": "image",
+			"url": "assets/HSW/FE_icon_radar_letterN.png"
+		},
+		{
+			"name": "FE_icon_radar_letterR_png",
+			"type": "image",
+			"url": "assets/HSW/FE_icon_radar_letterR.png"
+		},
+		{
+			"name": "FE_icon_radar_letterU_png",
+			"type": "image",
+			"url": "assets/HSW/FE_icon_radar_letterU.png"
+		},
+		{
+			"name": "FE_icon_radar_letterY_png",
+			"type": "image",
+			"url": "assets/HSW/FE_icon_radar_letterY.png"
+		},
+		{
+			"name": "shop_3_png",
+			"type": "image",
+			"url": "assets/HSW/shop_3.png"
+		},
+		{
+			"name": "showNotic_png",
+			"type": "image",
+			"url": "assets/HSW/showNotic.png"
+		},
+		{
+			"name": "FE_group_A_png",
+			"type": "image",
+			"url": "assets/HSW/FE_group_A.png"
+		},
+		{
+			"name": "FE_group_B_png",
+			"type": "image",
+			"url": "assets/HSW/FE_group_B.png"
+		},
+		{
+			"name": "FE_group_C_png",
+			"type": "image",
+			"url": "assets/HSW/FE_group_C.png"
+		},
+		{
+			"name": "FE_group_D_png",
+			"type": "image",
+			"url": "assets/HSW/FE_group_D.png"
+		},
+		{
+			"name": "FE_group_E_png",
+			"type": "image",
+			"url": "assets/HSW/FE_group_E.png"
+		},
+		{
+			"name": "FE_group_F_png",
+			"type": "image",
+			"url": "assets/HSW/FE_group_F.png"
+		},
+		{
+			"name": "FE_group_S_png",
+			"type": "image",
+			"url": "assets/HSW/FE_group_S.png"
+		},
+		{
+			"name": "FE_icon_cross_png",
+			"type": "image",
+			"url": "assets/HSW/FE_icon_cross.png"
 		}
 	]
 }

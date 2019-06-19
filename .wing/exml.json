@@ -1,0 +1,18 @@
+{
+  "global": {
+    "globalAdsorbEnable": false,
+    "globalBindingDataTestObj": []
+  },
+  "16b6dc0fed8": {
+    "bindingDataTestObj": [],
+    "backgroundType": "user",
+    "backgroundImage": "D:\\EgretProgram\\SoftLiu_EgretWing3Study\\resource\\assets\\HSW\\shop_3.png",
+    "useBgImage": false,
+    "useBgColor": false,
+    "backgroundX": 0,
+    "backgroundY": 0,
+    "backgroundWidth": -1,
+    "backgroundHeight": -1,
+    "backgroundAlpha": 100
+  }
+}
