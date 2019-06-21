@@ -1,11 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
 <e:Skin class="skins.HSWDataSkin" width="640" height="1136" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group id="group_clickScene" top="0" left="0" right="0" bottom="0" touchThrough="false">
+		<e:Button id="image_click_scenc" label="" left="0" top="0" right="0" bottom="0">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="shop_3_png" source.down="shop_3_png" source.disabled="shop_3_png" alpha="0.2" scale9Grid="15,15,15,15"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+		</e:Button>
+	</e:Group>
     <e:Group id="group_right_top" width="100" height="50%" right="0" touchEnabled="false" top="0">
-			<e:Image fillMode="clip" source="shop_3_png" left="0" top="0" right="0" bottom="0" scale9Grid="16,15,16,19"/>
-			<e:Image id="showNotic" width="98" height="101" scale9Grid="1,3,8,8" touchEnabled="true" right="2" top="0" alpha="1"
-                source="showNotic_png"/>
+
+			<e:Button id="showNotic" label="" right="0" top="0" enabled="true">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="showNotic_png" source.down="showNotic_png" alpha.down="0.5" alpha.disabled="0.5"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+			</e:Button>
+
     </e:Group>
 	<e:Image id="image_logo" source="logo_png" width="100" height="100" touchEnabled="false" top="0" left="0"/>
+
     <e:Group touchEnabled="false"  width="100%" height="100" bottom="0" horizontalCenter="0">
         <e:Image id="letterH"  source="FE_icon_radar_letterH_png" horizontalCenter="0" verticalCenter="0"/>
         <e:Image id="letterU"  source="FE_icon_radar_letterU_png" horizontalCenter="0" verticalCenter="0"/>

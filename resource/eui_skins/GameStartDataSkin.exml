@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="GameStartDataSkin" width="640" height="1136" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group id="play" height="200" anchorOffsetX="0" anchorOffsetY="0" left="0" right="0" verticalCenter="300">
+		<e:Button id="m_btnBack" label="Back Game" verticalCenter="0" left="0" height="80" width="200" skinName="skins.ButtonSkin" touchEnabled="true" enabled="true">
+
+		</e:Button>
+		<e:Button id="m_btnPlay" label="Play Game" right="0" verticalCenter="0" width="200" height="80" skinName="skins.ButtonSkin" enabled="true" touchEnabled="true">
+
+		</e:Button>
+	</e:Group>
+</e:Skin>
