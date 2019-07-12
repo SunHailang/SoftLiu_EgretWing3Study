@@ -1,5 +1,10 @@
 {
-	"groups": [],
+	"groups": [
+		{
+			"name": "preload",
+			"keys": "FE_Loading_2K_png"
+		}
+	],
 	"resources": [
 		{
 			"url": "assets/CheckBox/checkbox_select_disabled.png",
@@ -215,6 +220,11 @@
 			"name": "FE_icon_cross_png",
 			"type": "image",
 			"url": "assets/HSW/FE_icon_cross.png"
+		},
+		{
+			"name": "FE_Loading_2K_png",
+			"type": "image",
+			"url": "assets/Loading/FE_Loading_2K.png"
 		}
 	]
 }

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="LoadingDataSkin" height="1920" width="1080" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group left="0" top="0" bottom="0" right="0">
+		<e:Image id="image_loading" touchEnabled="true" top="-64" left="-484" right="-484" bottom="-64" source="FE_Loading_2K_png"/>
+		<e:Label id="loading" text="LOADING..." anchorOffsetX="0" horizontalCenter="0" size="31" textColor="0xff8b00" bottom="100"/>		
+		<e:Group id="group_bar" height="20" bottom="75" left="30" right="30" horizontalCenter="0">
+			<e:ProgressBar id="loading_progressBar" bottom="0" height="20" enabled="true" skinName="ProgressBarLoadingSkin" y="1052" scaleX="1" scaleY="1" right="0" left="0"/>
+		</e:Group>
+		<e:Image id="cross" source="FE_icon_cross_png" width="60" height="60" x="30" y="1805"/>
+
+
+	</e:Group>
+
+</e:Skin>
